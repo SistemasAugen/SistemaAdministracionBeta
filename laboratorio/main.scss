@@ -1,0 +1,75 @@
+#app {
+    h3 {
+        display: inline;
+        margin-left: 15px;
+    }
+    .container {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        // text-align: center;
+
+        .laboratory-table {
+            margin-top: 25px;
+        }
+
+    }
+    .main-content {
+        max-width: 100%;
+        div[class*="col"] {
+            padding: 0 5px;
+        }
+        table {
+            th {
+                font-size: 10px !important;
+            }
+
+            td {
+                font-size: 0.75em;
+            }
+        }
+    }
+}
+
+$stillGreen: 0;
+$endGreen: 1;
+
+tr[class*="days-"] {
+    // color: #721c24;
+    color: #ffffff;
+    // background-color: #f8d7da;
+    background-color: #bd362f;
+    // border-color: #f5c6cb;
+    border-color: #802420;
+    &.warranty {
+        // color: #004085 !important;
+        // background-color: #cce5ff !important;
+        background-color: #2f96b4 !important;
+        // border-color: #b8daff !important;
+        border-color: #1f6377 !important;
+    }
+}
+
+@for $i from $stillGreen through $endGreen {
+    .days-#{$i} {
+        // color: #155724 !important;
+        // background-color: #d4edda !important;
+        background-color: #51a351 !important;
+        // border-color: #c3e6cb !important;
+        border-color: #387038 !important;
+    }
+}
+
+
+$stillYellow: 2;
+$endYellow: 3;
+
+@for $i from $stillYellow through $endYellow {
+    .days-#{$i} {
+        // color: #856404 !important;
+        color: #000000 !important;
+        // background-color: #fff3cd !important;
+        background-color: #f89406 !important;
+        // border-color: #ffeeba !important;
+        border-color: #ad6704 !important;
+    }
+}

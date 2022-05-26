@@ -1,0 +1,57 @@
+#app h3 {
+  display: inline;
+  margin-left: 15px;
+}
+#app .container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#app .container .laboratory-table {
+  margin-top: 25px;
+}
+#app .main-content {
+  max-width: 100%;
+}
+#app .main-content div[class*=col] {
+  padding: 0 5px;
+}
+#app .main-content table th {
+  font-size: 10px !important;
+}
+#app .main-content table td {
+  font-size: 0.75em;
+}
+
+tr[class*=days-] {
+  color: #ffffff;
+  background-color: #bd362f;
+  border-color: #802420;
+}
+tr[class*=days-].warranty {
+  background-color: #2f96b4 !important;
+  border-color: #1f6377 !important;
+}
+
+.days-0 {
+  background-color: #51a351 !important;
+  border-color: #387038 !important;
+}
+
+.days-1 {
+  background-color: #51a351 !important;
+  border-color: #387038 !important;
+}
+
+.days-2 {
+  color: #000000 !important;
+  background-color: #f89406 !important;
+  border-color: #ad6704 !important;
+}
+
+.days-3 {
+  color: #000000 !important;
+  background-color: #f89406 !important;
+  border-color: #ad6704 !important;
+}
+
+/*# sourceMappingURL=main.css.map */
